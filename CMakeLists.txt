@@ -24,4 +24,4 @@ target_include_directories(ImGui PUBLIC ".")
 target_include_directories(ImGui PUBLIC "backends")
 
 # link the glfw3 library.
-target_link_libraries(ImGui PRIVATE glfw3)
+target_link_libraries(ImGui PRIVATE glfw)
